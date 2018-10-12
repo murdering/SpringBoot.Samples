@@ -1,0 +1,73 @@
+﻿2018-09-18 11:02:42,127  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 5432 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:02:42,127 DEBUG Log4jDemoApplicationTests:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 11:02:42,127  INFO Log4jDemoApplicationTests:684 - The following profiles are active: dev
+2018-09-18 11:02:43,812  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.121 seconds (JVM running for 2.841)
+2018-09-18 11:02:43,888  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:02:43,888 DEBUG Log4jDemoApplicationTests:18 - 输出debug
+2018-09-18 11:02:43,888 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:03:10,377  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 13628 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:03:10,378 DEBUG Log4jDemoApplicationTests:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 11:03:10,378  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:03:12,225  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.352 seconds (JVM running for 3.094)
+2018-09-18 11:03:12,316  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:03:12,317 DEBUG Log4jDemoApplicationTests:18 - 输出debug
+2018-09-18 11:03:12,317 ERROR Log4jDemoApplicationTests:19 - 输出error
+
+2018-09-18 11:08:07,240  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 14728 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:08:07,241  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:08:08,968  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.246 seconds (JVM running for 3.171)
+2018-09-18 11:08:09,044  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:08:09,044 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:11:25,784  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 12656 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:11:25,785 DEBUG Log4jDemoApplicationTests:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 11:11:25,785  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:11:27,527  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.196 seconds (JVM running for 2.879)
+2018-09-18 11:11:27,606  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:11:27,606 DEBUG Log4jDemoApplicationTests:18 - 输出debug
+2018-09-18 11:11:27,606 ERROR Log4jDemoApplicationTests:19 - 输出error
+
+2018-09-18 11:12:08,572  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 11660 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:12:08,572 DEBUG Log4jDemoApplicationTests:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 11:12:08,573  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:12:10,277  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.151 seconds (JVM running for 2.863)
+2018-09-18 11:12:10,352  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:12:10,353 DEBUG Log4jDemoApplicationTests:18 - 输出debug
+2018-09-18 11:12:10,353 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:12:59,000  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 8340 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:12:59,001 DEBUG Log4jDemoApplicationTests:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 11:12:59,001  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:13:00,660  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.128 seconds (JVM running for 2.863)
+2018-09-18 11:13:00,743  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:13:00,743 DEBUG Log4jDemoApplicationTests:18 - 输出debug
+2018-09-18 11:13:00,743 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 16:37:58,726  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14772 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:37:58,726 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 16:37:58,727  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:38:03,457  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 13.236 seconds (JVM running for 19.307)
+2018-09-18 16:38:31,116  INFO WebLogAspect:32 - URL : http://localhost:8080/hello
+2018-09-18 16:38:31,116  INFO WebLogAspect:33 - HTTP_METHOD : GET
+2018-09-18 16:38:31,117  INFO WebLogAspect:34 - IP : 0:0:0:0:0:0:0:1
+2018-09-18 16:38:31,118  INFO WebLogAspect:35 - CLASS_METHOD : com.example.log4jDemo.web.HelloController.hello
+2018-09-18 16:38:31,119  INFO WebLogAspect:36 - ARGS : [didi]
+2018-09-18 16:38:31,134  INFO WebLogAspect:43 - RESPONSE : hello didi
+2018-09-18 16:39:30,358  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 16544 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:39:30,359 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 16:39:30,359  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:39:33,125  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.213 seconds (JVM running for 3.562)
+2018-09-18 16:44:23,546  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 16516 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:44:23,547 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 16:44:23,547  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:44:26,264  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.308 seconds (JVM running for 3.682)
+2018-09-18 16:44:36,154  INFO WebLogAspect:36 - URL : http://localhost:8080/hello
+2018-09-18 16:44:36,155  INFO WebLogAspect:37 - HTTP_METHOD : GET
+2018-09-18 16:44:36,155  INFO WebLogAspect:38 - IP : 0:0:0:0:0:0:0:1
+2018-09-18 16:44:36,156  INFO WebLogAspect:39 - CLASS_METHOD : com.example.log4jDemo.web.HelloController.hello
+2018-09-18 16:44:36,157  INFO WebLogAspect:40 - ARGS : [didi]
+2018-09-18 16:44:36,161  INFO WebLogAspect:47 - RESPONSE : hello didi
+2018-09-18 16:44:36,162  INFO WebLogAspect:48 - SPEND TIME : 8
+2018-09-18 17:41:16,217  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14116 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 17:41:16,223 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 17:41:16,224  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 17:49:40,232  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 15860 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 17:49:40,232 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-18 17:49:40,233  INFO Log4jDemoApplication:684 - The following profiles are active: prod

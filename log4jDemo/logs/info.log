@@ -1,0 +1,98 @@
+2018-09-19 10:06:03,818  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-19 10:06:04,202  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 15940 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-19 10:06:04,207  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-19 10:06:04,283  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@527e5409: startup date [Wed Sep 19 10:06:04 CST 2018]; root of context hierarchy
+2018-09-19 10:06:06,034  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-19 10:06:06,153  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 1874 ms
+2018-09-19 10:06:06,251  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-19 10:06:06,255  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-19 10:06:06,255  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-19 10:06:06,255  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-19 10:06:06,255  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-19 10:06:06,409  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:06,688  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@527e5409: startup date [Wed Sep 19 10:06:04 CST 2018]; root of context hierarchy
+2018-09-19 10:06:06,750  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-19 10:06:06,755  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-19 10:06:06,755  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-19 10:06:06,793  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:06,793  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:07,000  WARN AnnotationConfigServletWebServerApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+2018-09-19 10:06:07,003  INFO AnnotationMBeanExporter:451 - Unregistering JMX-exposed beans on shutdown
+2018-09-19 10:06:07,033 ERROR SpringApplication:863 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.example.log4jDemo.Log4jDemoApplication.main(Log4jDemoApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: clusterListener can not be null
+	at com.mongodb.assertions.Assertions.notNull(Assertions.java:37)
+	at com.mongodb.connection.ClusterSettings$Builder.addClusterListener(ClusterSettings.java:218)
+	at com.mongodb.connection.DefaultClusterFactory.getClusterSettings(DefaultClusterFactory.java:190)
+	at com.mongodb.connection.DefaultClusterFactory.create(DefaultClusterFactory.java:80)
+	at com.mongodb.Mongo.createCluster(Mongo.java:682)
+	at com.mongodb.Mongo.createCluster(Mongo.java:668)
+	at com.mongodb.Mongo.createCluster(Mongo.java:642)
+	at com.mongodb.Mongo.<init>(Mongo.java:289)
+	at com.mongodb.MongoClient.<init>(MongoClient.java:268)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:111)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createNetworkMongoClient(MongoClientFactory.java:107)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:67)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:70)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$7c58d562.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$7c58d562$$FastClassBySpringCGLIB$$5d2e917c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$7c58d562.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 19 more
+2018-09-19 10:06:44,654  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-19 10:06:44,954  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14304 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-19 10:06:44,955  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-19 10:06:45,025  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ff95560: startup date [Wed Sep 19 10:06:45 CST 2018]; root of context hierarchy
+2018-09-19 10:06:46,624  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-19 10:06:46,746  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 1723 ms
+2018-09-19 10:06:46,812  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-19 10:06:46,815  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-19 10:06:46,815  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-19 10:06:46,816  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-19 10:06:46,816  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-19 10:06:46,979  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:47,263  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7ff95560: startup date [Wed Sep 19 10:06:45 CST 2018]; root of context hierarchy
+2018-09-19 10:06:47,330  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-19 10:06:47,336  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-19 10:06:47,336  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-19 10:06:47,375  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:47,376  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-19 10:06:48,130  INFO cluster:71 - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2018-09-19 10:06:48,209  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-09-19 10:06:48,231  INFO connection:71 - Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2018-09-19 10:06:48,235  INFO cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 0]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=3047220}
+2018-09-19 10:06:48,261  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-09-19 10:06:48,263  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.758 seconds (JVM running for 4.122)
+2018-09-19 10:07:00,306  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-19 10:07:00,332  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-09-19 10:07:00,370  INFO mongodb:38 - { "requestURL" : "http://localhost:8080/hello" , "requestURI" : "/hello" , "queryString" : "name=didi" , "remoteAddr" : "0:0:0:0:0:0:0:1" , "remoteHost" : "0:0:0:0:0:0:0:1" , "remotePort" : 57500 , "localAddr" : "0:0:0:0:0:0:0:1" , "localName" : "0:0:0:0:0:0:0:1" , "method" : "GET" , "headers" : { "accept-language" : "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7" , "cookie" : "splunkweb_csrf_token_8000=4178723318028310312" , "host" : "localhost:8080" , "upgrade-insecure-requests" : "1" , "connection" : "keep-alive" , "cache-control" : "max-age=0" , "accept-encoding" : "gzip, deflate, br" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" , "accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"} , "parameters" : { "name" : [ "didi"]} , "classMethod" : "com.example.log4jDemo.web.HelloController.hello" , "args" : "[didi]"}
+2018-09-19 10:18:32,452  INFO mongodb:38 - { "requestURL" : "http://localhost:8080/hello" , "requestURI" : "/hello" , "queryString" : "name=abcd" , "remoteAddr" : "0:0:0:0:0:0:0:1" , "remoteHost" : "0:0:0:0:0:0:0:1" , "remotePort" : 58549 , "localAddr" : "0:0:0:0:0:0:0:1" , "localName" : "0:0:0:0:0:0:0:1" , "method" : "GET" , "headers" : { "accept-language" : "en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7" , "cookie" : "splunkweb_csrf_token_8000=4178723318028310312" , "host" : "localhost:8080" , "upgrade-insecure-requests" : "1" , "connection" : "keep-alive" , "accept-encoding" : "gzip, deflate, br" , "user-agent" : "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36" , "accept" : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"} , "parameters" : { "name" : [ "abcd"]} , "classMethod" : "com.example.log4jDemo.web.HelloController.hello" , "args" : "[abcd]"}

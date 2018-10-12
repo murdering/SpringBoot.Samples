@@ -1,0 +1,348 @@
+2018-09-18 10:35:20,779  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 10:35:20,784  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 10:35:20,962  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 10:35:20,973  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 10:35:21,093  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 10:35:21,432  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 13920 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 10:35:21,434  INFO Log4jDemoApplicationTests:680 - No active profile set, falling back to default profiles: default
+2018-09-18 10:35:21,468  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@8297b3a: startup date [Tue Sep 18 10:35:21 CST 2018]; root of context hierarchy
+2018-09-18 10:35:22,720  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:35:22,925  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@8297b3a: startup date [Tue Sep 18 10:35:21 CST 2018]; root of context hierarchy
+2018-09-18 10:35:22,989  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 10:35:22,989  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 10:35:23,030  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:35:23,030  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:35:23,199  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.163 seconds (JVM running for 2.876)
+2018-09-18 10:35:23,278  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 10:35:23,279 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 10:35:23,289  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@8297b3a: startup date [Tue Sep 18 10:35:21 CST 2018]; root of context hierarchy
+2018-09-18 10:52:18,832  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 10:52:18,838  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 10:52:19,072  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 10:52:19,085  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 10:52:19,240  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 10:52:19,603  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 15300 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 10:52:19,604  INFO Log4jDemoApplicationTests:684 - The following profiles are active: dev
+2018-09-18 10:52:19,641  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 10:52:19 CST 2018]; root of context hierarchy
+2018-09-18 10:52:20,900  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:52:21,075  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 10:52:19 CST 2018]; root of context hierarchy
+2018-09-18 10:52:21,140  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 10:52:21,141  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 10:52:21,193  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:52:21,193  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:52:21,372  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.213 seconds (JVM running for 3.053)
+2018-09-18 10:52:21,451  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 10:52:21,452 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 10:52:21,458  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 10:52:19 CST 2018]; root of context hierarchy
+2018-09-18 10:53:48,957  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 10:53:48,961  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 10:53:49,158  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 10:53:49,172  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 10:53:49,302  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 10:53:49,775  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 16044 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 10:53:49,775  INFO Log4jDemoApplicationTests:684 - The following profiles are active: dev
+2018-09-18 10:53:49,830  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 10:53:49 CST 2018]; root of context hierarchy
+2018-09-18 10:53:51,098  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:53:51,267  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 10:53:49 CST 2018]; root of context hierarchy
+2018-09-18 10:53:51,342  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 10:53:51,342  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 10:53:51,387  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:53:51,387  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 10:53:51,571  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.325 seconds (JVM running for 3.08)
+2018-09-18 10:53:51,659  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 10:53:51,660 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 10:53:51,667  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 10:53:49 CST 2018]; root of context hierarchy
+2018-09-18 11:08:06,448  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 11:08:06,453  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 11:08:06,639  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 11:08:06,653  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 11:08:06,766  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 11:08:07,240  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 14728 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:08:07,241  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:08:07,294  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:08:07 CST 2018]; root of context hierarchy
+2018-09-18 11:08:08,548  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:08:08,708  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:08:07 CST 2018]; root of context hierarchy
+2018-09-18 11:08:08,770  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 11:08:08,771  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 11:08:08,808  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:08:08,808  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:08:08,968  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.246 seconds (JVM running for 3.171)
+2018-09-18 11:08:09,044  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:08:09,044 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:08:09,052  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:08:07 CST 2018]; root of context hierarchy
+2018-09-18 11:11:25,080  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 11:11:25,084  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 11:11:25,267  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 11:11:25,278  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 11:11:25,372  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 11:11:25,784  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 12656 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:11:25,785  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:11:25,824  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:11:25 CST 2018]; root of context hierarchy
+2018-09-18 11:11:27,029  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:11:27,222  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:11:25 CST 2018]; root of context hierarchy
+2018-09-18 11:11:27,295  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 11:11:27,295  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 11:11:27,341  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:11:27,341  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:11:27,527  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.196 seconds (JVM running for 2.879)
+2018-09-18 11:11:27,606  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:11:27,606 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:11:27,612  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:11:25 CST 2018]; root of context hierarchy
+2018-09-18 11:12:07,875  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 11:12:07,879  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 11:12:08,055  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 11:12:08,065  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 11:12:08,174  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 11:12:08,572  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 11660 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:12:08,573  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:12:08,604  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:12:08 CST 2018]; root of context hierarchy
+2018-09-18 11:12:09,832  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:12:10,012  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:12:08 CST 2018]; root of context hierarchy
+2018-09-18 11:12:10,075  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 11:12:10,076  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 11:12:10,120  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:12:10,121  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:12:10,277  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.151 seconds (JVM running for 2.863)
+2018-09-18 11:12:10,352  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:12:10,353 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:12:10,361  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@58d75e99: startup date [Tue Sep 18 11:12:08 CST 2018]; root of context hierarchy
+2018-09-18 11:12:58,264  INFO SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.log4jDemo.Log4jDemoApplicationTests], using SpringBootContextLoader
+2018-09-18 11:12:58,268  INFO AbstractContextLoader:264 - Could not detect default resource locations for test class [com.example.log4jDemo.Log4jDemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-18 11:12:58,448  INFO SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-18 11:12:58,461  INFO SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@11a9e7c8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3901d134, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14d3bc22, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12d4bf7e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4c1d9d4b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7b227d8d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7219ec67, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@45018215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65d6b83b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@d706f19]
+2018-09-18 11:12:58,574  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 11:12:59,000  INFO Log4jDemoApplicationTests:50 - Starting Log4jDemoApplicationTests on CHN-5-LeoDai with PID 8340 (started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 11:12:59,001  INFO Log4jDemoApplicationTests:684 - The following profiles are active: prod
+2018-09-18 11:12:59,054  INFO GenericWebApplicationContext:590 - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 11:12:59 CST 2018]; root of context hierarchy
+2018-09-18 11:13:00,176  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:13:00,366  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 11:12:59 CST 2018]; root of context hierarchy
+2018-09-18 11:13:00,425  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 11:13:00,426  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 11:13:00,461  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:13:00,461  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 11:13:00,660  INFO Log4jDemoApplicationTests:59 - Started Log4jDemoApplicationTests in 2.128 seconds (JVM running for 2.863)
+2018-09-18 11:13:00,743  INFO Log4jDemoApplicationTests:17 - 输出info
+2018-09-18 11:13:00,743 ERROR Log4jDemoApplicationTests:19 - 输出error
+2018-09-18 11:13:00,758  INFO GenericWebApplicationContext:993 - Closing org.springframework.web.context.support.GenericWebApplicationContext@741a8937: startup date [Tue Sep 18 11:12:59 CST 2018]; root of context hierarchy
+2018-09-18 16:37:53,595  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 16:37:58,726  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14772 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:37:58,727  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:37:58,791  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11dc3715: startup date [Tue Sep 18 16:37:58 CST 2018]; root of context hierarchy
+2018-09-18 16:38:01,530  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-18 16:38:01,785  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2997 ms
+2018-09-18 16:38:01,962  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-18 16:38:01,967  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-18 16:38:01,968  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-18 16:38:01,968  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-18 16:38:01,968  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-18 16:38:02,292  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:38:02,699  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@11dc3715: startup date [Tue Sep 18 16:37:58 CST 2018]; root of context hierarchy
+2018-09-18 16:38:02,788  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-18 16:38:02,792  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 16:38:02,792  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 16:38:02,836  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:38:02,836  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:38:03,342  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-09-18 16:38:03,454  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-09-18 16:38:03,457  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 13.236 seconds (JVM running for 19.307)
+2018-09-18 16:38:30,946  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-18 16:38:30,981  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-09-18 16:38:31,116  INFO WebLogAspect:32 - URL : http://localhost:8080/hello
+2018-09-18 16:38:31,116  INFO WebLogAspect:33 - HTTP_METHOD : GET
+2018-09-18 16:38:31,117  INFO WebLogAspect:34 - IP : 0:0:0:0:0:0:0:1
+2018-09-18 16:38:31,118  INFO WebLogAspect:35 - CLASS_METHOD : com.example.log4jDemo.web.HelloController.hello
+2018-09-18 16:38:31,119  INFO WebLogAspect:36 - ARGS : [didi]
+2018-09-18 16:38:31,134  INFO WebLogAspect:43 - RESPONSE : hello didi
+2018-09-18 16:39:30,053  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 16:39:30,358  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 16544 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:39:30,359  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:39:30,446  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69930714: startup date [Tue Sep 18 16:39:30 CST 2018]; root of context hierarchy
+2018-09-18 16:39:32,086  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-18 16:39:32,221  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 1778 ms
+2018-09-18 16:39:32,289  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-18 16:39:32,292  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-18 16:39:32,292  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-18 16:39:32,293  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-18 16:39:32,293  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-18 16:39:32,434  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:39:32,697  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@69930714: startup date [Tue Sep 18 16:39:30 CST 2018]; root of context hierarchy
+2018-09-18 16:39:32,837  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-18 16:39:32,843  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 16:39:32,844  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 16:39:32,889  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:39:32,889  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:39:33,067  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-09-18 16:39:33,122  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-09-18 16:39:33,125  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.213 seconds (JVM running for 3.562)
+2018-09-18 16:41:53,716  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-18 16:41:53,746  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+2018-09-18 16:44:23,103  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 16:44:23,546  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 16516 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 16:44:23,547  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 16:44:23,657  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a4102b8: startup date [Tue Sep 18 16:44:23 CST 2018]; root of context hierarchy
+2018-09-18 16:44:25,269  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-18 16:44:25,392  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 1738 ms
+2018-09-18 16:44:25,466  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-18 16:44:25,469  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-18 16:44:25,470  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-18 16:44:25,470  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-18 16:44:25,470  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-18 16:44:25,640  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:44:25,947  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a4102b8: startup date [Tue Sep 18 16:44:23 CST 2018]; root of context hierarchy
+2018-09-18 16:44:26,009  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-18 16:44:26,014  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 16:44:26,014  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 16:44:26,057  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:44:26,058  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 16:44:26,219  INFO AnnotationMBeanExporter:433 - Registering beans for JMX exposure on startup
+2018-09-18 16:44:26,262  INFO TomcatWebServer:206 - Tomcat started on port(s): 8080 (http) with context path ''
+2018-09-18 16:44:26,264  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.308 seconds (JVM running for 3.682)
+2018-09-18 16:44:36,097  INFO DispatcherServlet:494 - FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-18 16:44:36,121  INFO DispatcherServlet:509 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2018-09-18 16:44:36,154  INFO WebLogAspect:36 - URL : http://localhost:8080/hello
+2018-09-18 16:44:36,155  INFO WebLogAspect:37 - HTTP_METHOD : GET
+2018-09-18 16:44:36,155  INFO WebLogAspect:38 - IP : 0:0:0:0:0:0:0:1
+2018-09-18 16:44:36,156  INFO WebLogAspect:39 - CLASS_METHOD : com.example.log4jDemo.web.HelloController.hello
+2018-09-18 16:44:36,157  INFO WebLogAspect:40 - ARGS : [didi]
+2018-09-18 16:44:36,161  INFO WebLogAspect:47 - RESPONSE : hello didi
+2018-09-18 16:44:36,162  INFO WebLogAspect:48 - SPEND TIME : 8
+2018-09-18 17:41:15,745  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 17:41:16,217  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14116 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 17:41:16,224  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 17:41:16,329  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79ca92b9: startup date [Tue Sep 18 17:41:16 CST 2018]; root of context hierarchy
+2018-09-18 17:41:18,334  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-18 17:41:18,453  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 2127 ms
+2018-09-18 17:41:18,519  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-18 17:41:18,523  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-18 17:41:18,524  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-18 17:41:18,524  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-18 17:41:18,524  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-18 17:41:18,701  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:41:19,064  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79ca92b9: startup date [Tue Sep 18 17:41:16 CST 2018]; root of context hierarchy
+2018-09-18 17:41:19,155  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-18 17:41:19,162  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 17:41:19,163  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 17:41:19,216  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:41:19,216  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:41:19,492  WARN AnnotationConfigServletWebServerApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+2018-09-18 17:41:19,495  INFO AnnotationMBeanExporter:451 - Unregistering JMX-exposed beans on shutdown
+2018-09-18 17:41:19,559 ERROR SpringApplication:863 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.example.log4jDemo.Log4jDemoApplication.main(Log4jDemoApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: clusterListener can not be null
+	at com.mongodb.assertions.Assertions.notNull(Assertions.java:37)
+	at com.mongodb.connection.ClusterSettings$Builder.addClusterListener(ClusterSettings.java:218)
+	at com.mongodb.connection.DefaultClusterFactory.getClusterSettings(DefaultClusterFactory.java:190)
+	at com.mongodb.connection.DefaultClusterFactory.create(DefaultClusterFactory.java:80)
+	at com.mongodb.Mongo.createCluster(Mongo.java:682)
+	at com.mongodb.Mongo.createCluster(Mongo.java:668)
+	at com.mongodb.Mongo.createCluster(Mongo.java:642)
+	at com.mongodb.Mongo.<init>(Mongo.java:289)
+	at com.mongodb.MongoClient.<init>(MongoClient.java:268)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:111)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createNetworkMongoClient(MongoClientFactory.java:107)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:67)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:70)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$aace737.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$aace737$$FastClassBySpringCGLIB$$7e6d2999.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$aace737.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 19 more
+2018-09-18 17:49:39,842  INFO Version:21 - HV000001: Hibernate Validator 6.0.12.Final
+2018-09-18 17:49:40,232  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 15860 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-18 17:49:40,233  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-18 17:49:40,300  INFO AnnotationConfigServletWebServerApplicationContext:590 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79ca92b9: startup date [Tue Sep 18 17:49:40 CST 2018]; root of context hierarchy
+2018-09-18 17:49:41,848  INFO TomcatWebServer:91 - Tomcat initialized with port(s): 8080 (http)
+2018-09-18 17:49:41,973  INFO ContextLoader:285 - Root WebApplicationContext: initialization completed in 1680 ms
+2018-09-18 17:49:42,045  INFO ServletRegistrationBean:187 - Servlet dispatcherServlet mapped to [/]
+2018-09-18 17:49:42,048  INFO FilterRegistrationBean:245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-18 17:49:42,049  INFO FilterRegistrationBean:245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-18 17:49:42,049  INFO FilterRegistrationBean:245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-18 17:49:42,049  INFO FilterRegistrationBean:245 - Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-18 17:49:42,214  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:49:42,513  INFO RequestMappingHandlerAdapter:588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@79ca92b9: startup date [Tue Sep 18 17:49:40 CST 2018]; root of context hierarchy
+2018-09-18 17:49:42,581  INFO RequestMappingHandlerMapping:549 - Mapped "{[/hello],methods=[GET]}" onto public java.lang.String com.example.log4jDemo.web.HelloController.hello(java.lang.String)
+2018-09-18 17:49:42,586  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-18 17:49:42,586  INFO RequestMappingHandlerMapping:549 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-18 17:49:42,627  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:49:42,627  INFO SimpleUrlHandlerMapping:373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-18 17:49:42,805  WARN AnnotationConfigServletWebServerApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+2018-09-18 17:49:42,809  INFO AnnotationMBeanExporter:451 - Unregistering JMX-exposed beans on shutdown
+2018-09-18 17:49:42,836 ERROR SpringApplication:863 - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mongo' defined in class path resource [org/springframework/boot/autoconfigure/mongo/MongoAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:590)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:780)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1277)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1265)
+	at com.example.log4jDemo.Log4jDemoApplication.main(Log4jDemoApplication.java:10)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.mongodb.MongoClient]: Factory method 'mongo' threw exception; nested exception is java.lang.IllegalArgumentException: clusterListener can not be null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:582)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: clusterListener can not be null
+	at com.mongodb.assertions.Assertions.notNull(Assertions.java:37)
+	at com.mongodb.connection.ClusterSettings$Builder.addClusterListener(ClusterSettings.java:218)
+	at com.mongodb.connection.DefaultClusterFactory.getClusterSettings(DefaultClusterFactory.java:190)
+	at com.mongodb.connection.DefaultClusterFactory.create(DefaultClusterFactory.java:80)
+	at com.mongodb.Mongo.createCluster(Mongo.java:682)
+	at com.mongodb.Mongo.createCluster(Mongo.java:668)
+	at com.mongodb.Mongo.createCluster(Mongo.java:642)
+	at com.mongodb.Mongo.<init>(Mongo.java:289)
+	at com.mongodb.MongoClient.<init>(MongoClient.java:268)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:111)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createNetworkMongoClient(MongoClientFactory.java:107)
+	at org.springframework.boot.autoconfigure.mongo.MongoClientFactory.createMongoClient(MongoClientFactory.java:67)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration.mongo(MongoAutoConfiguration.java:70)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$f9f098c0.CGLIB$mongo$1(<generated>)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$f9f098c0$$FastClassBySpringCGLIB$$14d954e9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365)
+	at org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration$$EnhancerBySpringCGLIB$$f9f098c0.mongo(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 19 more

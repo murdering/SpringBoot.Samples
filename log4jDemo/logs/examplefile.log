@@ -1,0 +1,7 @@
+2018-09-19 10:06:04,202  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 15940 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-19 10:06:04,207 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-19 10:06:04,207  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-19 10:06:44,954  INFO Log4jDemoApplication:50 - Starting Log4jDemoApplication on CHN-5-LeoDai with PID 14304 (D:\Project\Study\log4jDemo\target\classes started by leodai in D:\Project\Study\log4jDemo)
+2018-09-19 10:06:44,955 DEBUG Log4jDemoApplication:53 - Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018-09-19 10:06:44,955  INFO Log4jDemoApplication:684 - The following profiles are active: prod
+2018-09-19 10:06:48,263  INFO Log4jDemoApplication:59 - Started Log4jDemoApplication in 3.758 seconds (JVM running for 4.122)
